@@ -55,6 +55,7 @@ pub const SYS_MIN_ALIGN: usize = 8;
 #[cfg(all(any(
     target_arch = "x86_64",
     target_arch = "aarch64",
+    target_arch = "loongarch64",
     target_arch = "mips64",
     target_arch = "s390x",
     target_arch = "sparc64",
